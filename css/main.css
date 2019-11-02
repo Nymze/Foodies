@@ -1,0 +1,653 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  margin: 0;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: white;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+
+  /* Background styles */
+  background-image: url(https://images.unsplash.com/photo-1530554764233-e79e16c91d08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  font-weight: 200;
+  color: white;
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+.hero h2 {
+  font-weight: 200;
+}
+
+.hero .btn {
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  background-color: white;
+
+  /* Border styles */
+  border: 3px solid #d1274b;
+  border-radius: 8px;
+}
+
+.logoWraper {
+  width: 100%;
+}
+
+.logoNav {
+  width: 80px;
+  height: 80px;
+}
+
+.hvr-bounce-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  margin: 8px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+}
+.hvr-bounce-out:hover,
+.hvr-bounce-out:focus,
+.hvr-bounce-out:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* ============ Scroll Slider ============ */
+
+.exclusivity {
+  margin-left: 8px;
+  margin-top: 32px;
+  width: 20%;
+  border: solid #d1274b;
+  text-align: center;
+  background-color: #d1274b;
+  border-radius: 8px;
+  transform: rotate(-15deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.exclusivity-text {
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  margin: 2vh;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #d1274b;
+}
+
+.sliderPicture {
+  height: 80vh;
+}
+
+/* ============== Scroll Slider  ================== */
+
+/* ==== Phones 600 px */
+
+@media (max-width: 600px) {
+  .hero-inner {
+    margin: 8vh;
+  }
+
+  .hero h1 {
+    /* Text styles */
+    font-size: 4em;
+    font-weight: 200;
+    color: white;
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.2em;
+  }
+
+  .hero h2 {
+    font-weight: 200;
+  }
+
+  .hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 80%;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: white;
+
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 8px;
+  }
+} /* ====== seemore-container ====== */
+
+.seemore-container {
+  border: solid white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.seemore {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* ====== Footer ===== */
+
+.footer {
+  background-color: black;
+  height: 50vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* ====== Contact Form ======== */
+
+.InputNL {
+  text-align: center;
+  justify-content: center;
+  width: 40vh;
+  height: 4vh;
+  color: black;
+}
+
+.formNL {
+  margin: 8vh;
+}
+
+/* ===== Name ===== */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Andada|Permanent+Marker|Raleway:300");
+* {
+  box-sizing: border-box;
+}
+
+#namer {
+  position: relative;
+  max-width: 400px;
+  margin: 150px auto 0;
+}
+
+#namer input {
+  border: 0;
+  border-bottom: 2px solid white;
+  width: 100%;
+  font-size: 30px;
+  line-height: 35px;
+  height: 70px;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  color: #bbdefb;
+}
+
+#namer input.shake {
+  animation-name: shaker;
+  animation-duration: 200ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+#namer input:focus {
+  outline: 0;
+  color: #bbdefb;
+}
+
+#namer input::placeholder {
+  color: white;
+}
+
+.namer-controls {
+  position: relative;
+  display: block;
+  height: 30px;
+  margin: 20px 0;
+  text-align: center;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.namer-controls.active {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.namer-controls div {
+  float: left;
+  width: 33.33%;
+}
+
+.namer-controls div span {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px 5px;
+  width: 95%;
+  display: inline-block;
+  margin-right: 5%;
+  border-radius: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.namer-controls div span:last-child {
+  margin-right: 0;
+}
+
+.namer-controls div span.active {
+  box-shadow: none;
+  background-color: white;
+  color: #fff;
+}
+
+#namer-input.serious input {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Andada", serif;
+  font-weight: 500;
+}
+
+#namer-input.modern input {
+  font-family: "Raleway", sans-serif;
+  text-transform: lowercase;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+#namer-input.cheeky input {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+}
+
+@keyframes shaker {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+    opacity: 0.8;
+  }
+  10% {
+    transform: translate(10px, 7px) rotate(-9deg);
+    opacity: 0.6;
+  }
+  20% {
+    transform: translate(13px, -19px) rotate(-3deg);
+    opacity: 0.3;
+  }
+  30% {
+    transform: translate(-6px, -6px) rotate(2deg);
+    opacity: 0.4;
+  }
+  40% {
+    transform: translate(-9px, -18px) rotate(-5deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translate(10px, -8px) rotate(5deg);
+    opacity: 0.7;
+  }
+  60% {
+    transform: translate(-10px, 14px) rotate(-6deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(10px, 3px) rotate(6deg);
+    opacity: 0.1;
+  }
+  80% {
+    transform: translate(-2px, 20px) rotate(-6deg);
+    opacity: 1;
+  }
+  90% {
+    transform: translate(-7px, -19px) rotate(2deg);
+    opacity: 0.5;
+  }
+}
+
+#hastylink {
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+#hastylink:hover {
+  opacity: 1;
+}
+
+.sendBtn {
+  /* Positioning and sizing */
+  display: block;
+  width: 8vw;
+  height: 5vh;
+
+  /* Padding and margins */
+
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: white;
+
+  /* Border styles */
+  border: 3px solid white;
+  border-radius: 8px;
+}
+
+/* === Overlay On Image === */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(249, 249, 249, 0.455);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ===== AFrame  ====== */
+
+#myEmbeddedScene {
+  height: 600px;
+  width: 100%;
+}
+
+/* ====== Card ====== */
+
+.card {
+  transition: 0.3s;
+  width: 50%;
+  margin: 50px;
+}
+
+.card:hover {
+  margin-left: 30px;
+}
+
+.card:hover .card-writings {
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: white;
+}
+
+.Card-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.SectionBackground {
+  background-color: #d1274b;
+  height: 80vh;
+}
+
+.card-writings {
+  position: absolute;
+}
+
+.Card-font {
+  font-size: 56px;
+}
+
+/* === Secontion 2 */
+
+.SectionBackground-2 {
+  background-color: #d1274b;
+  height: 80vh;
+}
+
+.Card-container-2 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+}
+
+.card-2 {
+  transition: 0.3s;
+  width: 50%;
+  margin-right: 50px;
+
+  right: 0px;
+
+  position: absolute;
+  right: 0px;
+}
+
+.card-2:hover {
+  margin-right: -30px;
+}
+
+.card-2:hover .card-writings {
+  color: black;
+}
+
+.card-2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-2 {
+  padding: 2px 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: white;
+
+  position: absolute;
+  right: 0px;
+}
+
+.card-writings-2 {
+  position: absolute;
+  right: 0px;
+}
+
+.Card-font-2 {
+  font-size: 56px;
+  position: absolute;
+  right: 15px;
+}
+
+/* ========= ABOUT =========== */
+
+.about {
+  height: 80vh;
+  text-align: center;
+  padding-top: 32px;
+  background-image: url("https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80");
+}
+
+.aboutTitle {
+  font-size: 48px;
+  color: white;
+}
+
+.description {
+  margin-top: 16px;
+  width: 50%;
+  height: 70%;
+  margin: auto;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+}
+
+/* Animation */
+
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 16em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
